@@ -30,7 +30,7 @@ namespace TunaPiano.API
             });
 
             // UPDATE A SONG
-            app.MapPut("/songs/{songId}", (TunaPianaDBContext db, int id, Song song) =>
+            app.MapPut("/songs/{id}", (TunaPianaDBContext db, int id, Song song) =>
             {
                 Song songToUpdate = db.Songs.SingleOrDefault(s => s.Id == id);
                 if (songToUpdate == null)
