@@ -52,7 +52,7 @@ namespace TunaPiano.API
                 return db.Songs.ToList();
             });
 
-            // GET SING SONG BY ID WITH GENRE AND ARTIST DETAILS
+            // GET SONG BY ID WITH GENRE AND ARTIST DETAILS
             app.MapGet("/song/{id}", async (TunaPianaDBContext db, int id) =>
             {
                 Song song = await db.Songs
