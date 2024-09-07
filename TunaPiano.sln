@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TunaPiano", "TunaPiano.csproj", "{7D1EE9EA-605F-4C3D-AF7A-CBDFAA3F5BCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D1EE9EA-605F-4C3D-AF7A-CBDFAA3F5BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1EE9EA-605F-4C3D-AF7A-CBDFAA3F5BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1EE9EA-605F-4C3D-AF7A-CBDFAA3F5BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1EE9EA-605F-4C3D-AF7A-CBDFAA3F5BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {829BFE56-D564-47A5-8EC1-8B026236C285}
+	EndGlobalSection
+EndGlobal
